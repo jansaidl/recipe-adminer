@@ -9,6 +9,4 @@ zerops:
     run:
       os: alpine
       base: php-apache@8.3
-      initCommands:
-      - zsc noop
       documentRoot: public
