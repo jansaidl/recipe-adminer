@@ -8,5 +8,5 @@ zerops:
       deploy: ['./public']
     run:
       os: alpine
-      base: php-apache@8.1
+      base: php-nginx@8.1
       documentRoot: public
