@@ -7,6 +7,6 @@ zerops:
         - echo "There is nothing to build. Only deploy the code!"
       deploy: ['./public']
     run:
-      os: alpine
+      os: ubuntu
       base: php-nginx@8.3
       documentRoot: public
